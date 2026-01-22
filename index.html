@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paawan Nenwani | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+
+
+<!-- HERO -->
+<section class="hero container">
+
+  <!-- Profile Image -->
+  <div class="hero-image">
+    <img src="paawan.jpeg" alt="Paawan Nenwani">
+  </div>
+
+  <h1 class="hero-name">Paawan Nenwani</h1>
+
+
+  <p>B.Tech @ IIT Bombay · AI/ML · Robotics · Autonomous Systems</p>
+
+  <a href="resume.pdf" class="btn" download>
+    Download Resume
+  </a>
+
+</section>
+
+
+<!-- panel -->
+<div class="quick-nav">
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Exposure</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="container">
+  <div class="neon-box about-box">
+    <h2>👋 About Me</h2>
+
+    <p>
+      I am an undergraduate at IIT Bombay with a strong passion for autonomous systems, 
+      robotics, and artificial intelligence. As a core member of SeDriCa, the institute’s 
+      self-driving car tech team, I have represented IIT Bombay at international competitions 
+      in Italy and Brazil, gaining global recognition and extensive hands-on experience in 
+      building and programming autonomous vehicles. My work spans across AI research, computer 
+      vision, and robotics—covering projects from transformer-based change detection models and 
+      reinforcement learning for stock trading to quadrupeds, drones, and AI-driven legal tech 
+      solutions endorsed by Mumbai Police.
+    </p>
+
+    <p>
+      With skills in Python, C++, machine learning, and robotics frameworks, I am keen on 
+      creating impactful, software-driven solutions at the intersection of AI and real-world 
+      applications, while also contributing to leadership, mentorship, and cultural activities 
+      within the campus community.
+
+    </p>
+  </div>
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education" class="container section">
+  <div class="neon-box education-box">
+
+    <h2 class="edu-title">🎓 Education</h2>
+
+    <div class="education-card">
+
+      <div class="edu-header">
+        <h3 class="edu-institute">Indian Institute of Technology Bombay</h3>
+        <span class="year-badge">2023 – 2027</span>
+      </div>
+
+      <p class="edu-degree">B.Tech in Metallurgical Engineering & Materials Science</p>
+
+      <p class="edu-detail"><b>CGPA:</b> 8.24 / 10</p>
+      <p class="edu-detail"><b>Minor:</b> Data Science & Artificial Intelligence (C-MInDS)</p>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience" class="container section">
+  <div class="neon-box">
+  <h2>International Exposure</h2>
+
+  <div class="exposure-card">
+    <div class="project-header">
+      F1-TENTH Autonomous Grand Prix — Milan, Italy
+    </div>
+  
+    <div class="project-body">
+      <span>Perception & Localization Engineer | Aug 2024 – Dec 2024</span>
+      <ul>
+        <li>Ranked 13th globally in simulation; Quarter-finalist in physical races</li>
+        <li>Built velocity estimation using Lucas-Kanade Optical Flow with YOLO</li>
+        <li>Implemented SLAM using Google Cartographer on Jetson Xavier</li>
+        <li>Deployed Monte Carlo Localization for real-time autonomous control</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="exposure-card">
+    <div class="project-header">
+      Federation of International Robot-Soccer Association — São Luís, Brazil
+    </div>
+  
+    <div class="project-body">
+      <span>Autonomous Systems Engineer | Feb 2024 – Aug 2024</span>
+      <ul>
+        <li>Placed 5th in an international autonomous urban driving competition</li>
+        <li>Designed a compact 1:8 scale autonomous car with two-layer chassis</li>
+        <li>Built 3D-printed vehicle with Ackermann steering</li>
+        <li>Implemented PID controller in ROS</li>
+      </ul>
+    </div>
+  </div>
+  
+  
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="container section neon-projects">
+  <div class="neon-box">
+
+    <h2 class="neon-title">Projects & Research</h2>
+
+    <div class="projects-box">
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-header">
+            Transformer-based Satellite Change Detection
+          </div>
+          <div class="project-body">
+            <p>
+              Designed a Siamese architecture combining Swin Transformer and DINOv2
+              to capture both local and global changes in satellite imagery.
+            </p>
+            <p>
+              Built multi-scale difference computation and attention-based decoding
+              to precisely localize structural changes.
+            </p>
+            <p>
+              <b>Result:</b> 87.52% F1-score, 78.31% IoU on LEVIR-CD dataset.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-header">
+            NutriChat — Large-Scale RAG System
+          </div>
+          <div class="project-body">
+            <p>
+              Developed a Retrieval Augmented Generation pipeline for querying
+              large nutrition textbooks with high accuracy.
+            </p>
+            <p>
+              Implemented semantic chunking and FAISS-based vector search over
+              5,000+ document nodes.
+            </p>
+            <p>
+              Integrated retrieval with Gemma 7B for grounded, context-aware responses.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-header">
+            Reinforcement Learning for Stock Trading
+          </div>
+          <div class="project-body">
+            <p>
+              Applied learning-based models to overcome limitations of traditional
+              financial forecasting on NIFTY50 market data.
+            </p>
+            <p>
+              Built and compared ARIMA, LSTM, and DDPG models for adaptive
+              trading strategies.
+            </p>
+            <p>
+              Achieved prediction accuracy up to 95% with improved risk control.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <div class="project-header">
+            Quadruped Robot — 12-DOF Autonomous Platform
+          </div>
+          <div class="project-body">
+            <p>
+              Designed and engineered a fully 3D-printed 12-DOF quadruped robot from CAD
+              for multi-directional locomotion and stability.
+            </p>
+            <p>
+              Implemented wireless control using ESP32, HC-05 Bluetooth module, and L298N
+              motor drivers for real-time motion commands.
+            </p>
+            <p>
+              Focused on mechanical balance, gait feasibility, and modular electronics
+              integration for future autonomy extensions.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- HONORS & ACHIEVEMENTS -->
+<section id="honors" class="container section">
+  <div class="neon-box">
+
+    <h2>🏅 Honors & Achievements</h2>
+
+    <ul class="honors-list">
+      <li>
+        <b>JEE Main 2023:</b> Ranked in the <b>top 0.31%</b> nationwide among ~1 million candidates
+      </li>
+      <li>
+        <b>JEE Advanced 2023:</b> Ranked in the <b>top 2.2%</b> nationwide among ~150,000 candidates
+      </li>
+      <li>
+        <b>Academic Excellence:</b> Secured <b>perfect AA grades</b> in 9 rigorous core courses at IIT Bombay
+      </li>
+      <li>
+        <b>CipherSolutions (IIT Bombay IDEAS Program):</b> Received a <b>₹50,000 grant</b> and official
+        <b>endorsement from DCP (DSP), Mumbai Police</b> for an AI-powered FIR automation system
+      </li>
+      <li>
+        <b>Entrepreneurship:</b> Incubated CipherSolutions as an early-stage AI initiative, conducting
+        <b>20+ B2B interviews</b> across law, finance, and education sectors
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+
+
+<!-- SKILLS -->
+<section id="skills" class="container section">
+  <div class="neon-box skill-tree">
+
+    <h2>⚡ Skill Tree</h2>
+
+    <!-- CORE SKILLS -->
+    <div class="skill-group">
+      <h3>💻 Core Skills</h3>
+
+      <div class="skill-bar">
+        <span>C++</span>
+        <div class="bar">
+          <div class="fill intermediate"></div>
+        </div>
+        <em>Intermediate</em>
+      </div>
+
+      <div class="skill-bar">
+        <span>Python</span>
+        <div class="bar">
+          <div class="fill intermediate"></div>
+        </div>
+        <em>Intermediate</em>
+      </div>
+
+      <div class="skill-bar">
+        <span>Machine Learning / AI</span>
+        <div class="bar">
+          <div class="fill intermediate"></div>
+        </div>
+        <em>Intermediate</em>
+      </div>
+
+      <div class="skill-bar">
+        <span>Robotics</span>
+        <div class="bar">
+          <div class="fill intermediate"></div>
+        </div>
+        <em>Intermediate</em>
+      </div>
+
+      <div class="skill-bar">
+        <span>SQL</span>
+        <div class="bar">
+          <div class="fill beginner"></div>
+        </div>
+        <em>Beginner</em>
+      </div>
+    </div>
+
+    <!-- OTHER SKILLS -->
+    <div class="skill-group">
+      <h3>🛠 Tools & Technologies</h3>
+
+      <div class="skills">
+        <span>ROS</span>
+        <span>SLAM</span>
+        <span>PyTorch</span>
+        <span>Computer Vision</span>
+        <span>Reinforcement Learning</span>
+        <span>Transformers</span>
+        <span>Docker</span>
+        <span>Git</span>
+        <span>Linux</span>
+        <span>FAISS</span>
+        <span>YOLO</span>
+        <span>Cartographer</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<!-- CONTACT -->
+<section id="contact" class="container section">
+  <div class="neon-box contact-box">
+
+    <h2>📬 Get in Touch</h2>
+
+    <div class="contact-actions">
+      <a href="https://www.linkedin.com/in/paawan-nenwani-1b989328a/" target="_blank" class="contact-btn">
+        LinkedIn
+      </a>
+
+      <a href="mailto:23b2507@iitb.ac.in" class="contact-btn">
+        Email
+      </a>
+
+      <a href="tel:+918382818689" class="contact-btn">
+        📞 +91 83828 18689
+      </a>
+
+      <a href="resume.pdf" download class="contact-btn resume-btn">
+        Resume
+      </a>
+    </div>
+
+    <div class="contact-footer">
+      <p>Made with ❤️ & caffeine</p>
+      <p>© 2025 Paawan Nenwani</p>
+    </div>
+
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
+
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
